@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap');
 
 :root {
-    --color-dark: hsl(252, 30%, 17%)
+    --color-dark: hsl(252, 30%, 17%);
+    --color-light: hls(252, 30%, 95%);
+    --color-grey: hls(252, 15%, 65%);
+    --color-primary: hls(252, 75%, 60%);
+    --color-secondary: hls(252, 100%, 90%);
+    --color-success: hls(0, 95%, 65%);
+    --color-danger: hls(252, 30%, 17%);
+    --color-dark: hls(120, 95%, 65%);
+    --color-black: hls(252, 30%, 10%);
 }
 
 *,
@@ -19,4 +27,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--color-dark);
+    background: var(--color-light);
+    overflow-x: hidden;
+}
+
+/*--GENERAL STYLING---*/
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
