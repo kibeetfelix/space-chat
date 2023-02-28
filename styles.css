@@ -77,3 +77,7 @@ img {
 .text-bold {
     font-weight: 500;
 }
+
+.text-muted {
+    color: var(--color-grey);
+}
