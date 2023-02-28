@@ -73,3 +73,7 @@ img {
     background: var(--color-primary);
     color: white;
 }
+
+.text-bold {
+    font-weight: 500;
+}
