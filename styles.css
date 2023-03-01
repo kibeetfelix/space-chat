@@ -97,3 +97,9 @@ nav .container {
     align-items: center;
     justify-content: space-between;
 }
+
+nav .search-bar {
+    background: var(--color-light);
+    border-radius: var(--border-radius);
+    padding: var(--search-padding);
+}
