@@ -81,3 +81,13 @@ img {
 .text-muted {
     color: var(--color-grey);
 }
+
+/*------------- NAVBAR------------ */
+nav {
+    width: 100%;
+    background: var(--color-white);
+    padding: 0.7rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
