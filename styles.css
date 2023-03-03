@@ -103,3 +103,11 @@ nav .search-bar {
     border-radius: var(--border-radius);
     padding: var(--search-padding);
 }
+
+nav .search-bar input[type="search"] {
+    background: transparent;
+    width: 30vw;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-dark);
+}
