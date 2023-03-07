@@ -102,6 +102,7 @@ nav .search-bar {
     background: var(--color-light);
     border-radius: var(--border-radius);
     padding: var(--search-padding);
+    display: flex;
 }
 
 nav .search-bar input[type="search"] {
@@ -110,4 +111,8 @@ nav .search-bar input[type="search"] {
     margin-left: 1rem;
     font-size: 0.9rem;
     color: var(--color-dark);
+}
+
+nav .search-bar input[type="search"]::placeholder {
+    color: var(--color-grey);
 }
