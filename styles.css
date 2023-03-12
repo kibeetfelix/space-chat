@@ -163,3 +163,10 @@ main .container .left .profile {
     background: var(--color-white);
     border-radius: var(--card-border-radius);
 }
+
+.left .sidebar .menu-item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    cursor: pointer;
+}
