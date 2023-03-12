@@ -176,3 +176,10 @@ main .container .left .profile {
 .left .sidebar .menu-item:hover {
     background: var(--color-light);
 }
+
+.left .sidebar i {
+    font-size: 1.2rem;
+    color: var(--color-grey);
+    margin-left: 2rem;
+    position: relative;
+}
