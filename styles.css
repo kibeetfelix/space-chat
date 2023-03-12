@@ -200,3 +200,7 @@ main .container .left .profile {
     margin-left: 1.5rem;
     font-size: 1rem;
 }
+
+.left .sidebar .active {
+    background: var(--color-light);
+}
