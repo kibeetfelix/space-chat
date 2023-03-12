@@ -169,4 +169,6 @@ main .container .left .profile {
     align-items: center;
     height: 4rem;
     cursor: pointer;
+    translate: all 300ms ease;
+    position: relative;
 }
